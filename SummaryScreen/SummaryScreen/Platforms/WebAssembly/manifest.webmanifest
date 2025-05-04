@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "SummaryScreen",
+  "display": "standalone",
+  "name": "SummaryScreen",
+  "short_name": "SummaryScreen",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

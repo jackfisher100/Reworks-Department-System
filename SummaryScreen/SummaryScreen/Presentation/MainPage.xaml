@@ -1,0 +1,66 @@
+﻿<Page x:Class="SummaryScreen.Presentation.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:SummaryScreen.Presentation"
+      xmlns:uen="using:Uno.Extensions.Navigation.UI"
+      xmlns:utu="using:Uno.Toolkit.UI"
+      xmlns:um="using:Uno.Material"
+      NavigationCacheMode="Required"
+      Background="{ThemeResource BackgroundBrush}">
+
+        <Grid utu:SafeArea.Insets="VisibleBounds">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <utu:NavigationBar Content="{Binding Title}" />
+
+            <StackPanel Grid.Row="1" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Spacing="16">
+
+            <TextBlock x:Name="MessageTextBlock" FontSize="30" HorizontalAlignment="Center" Margin="20"/>
+
+            <GridView Name="BayGridView" HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="20" >
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+
+                            <StackPanel Name="ItemStackPanel" Background="{Binding Background}" Margin="15" Padding="15" MinWidth="350" >
+
+                                
+
+
+                                <TextBlock FontSize="40" Margin="0,0,0,10" Foreground="Black">
+                                        <Run Text="Bay " />
+                                        <Run  Text="{Binding bayNo}"/>
+                                </TextBlock>
+
+                                <TextBlock Text="{Binding timeInBay}" Foreground="Black" FontSize="30"/>
+
+                                <TextBlock Text="{Binding BarcodeString}" Foreground="Black" FontSize="30"/>
+
+                                <ProgressBar Height="30" Foreground="Green" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Visibility="{Binding progressVisible}" Maximum="{Binding predictionSecs}" Value="{Binding currentSecs}" />
+
+                            </StackPanel>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                </GridView>
+
+
+            </StackPanel>
+
+        <Grid Grid.Row="2" Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Rectangle Height="2" Fill="Gray"  HorizontalAlignment="Stretch"/>
+            <StackPanel Grid.Row="1">
+                <TextBlock Text="Completed Cars Today" FontSize="30" Margin="10" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="CompletedCarsText" FontSize="30" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+       </Grid>
+</Page>

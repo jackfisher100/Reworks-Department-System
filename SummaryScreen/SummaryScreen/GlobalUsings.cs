@@ -1,0 +1,15 @@
+﻿global using System.Collections.Immutable;
+global using CommunityToolkit.Mvvm.ComponentModel;
+global using CommunityToolkit.Mvvm.Input;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;
+global using Microsoft.Extensions.Localization;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Options;
+global using SummaryScreen.DataContracts;
+global using SummaryScreen.DataContracts.Serialization;
+global using SummaryScreen.Models;
+global using SummaryScreen.Presentation;
+global using SummaryScreen.Services.Caching;
+global using SummaryScreen.Services.Endpoints;
+global using ApplicationExecutionState = Windows.ApplicationModel.Activation.ApplicationExecutionState;
