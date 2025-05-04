@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="ManagerTablet.Presentation.FunctionSelectionPage"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     xmlns:local="using:ManagerTablet.Presentation"
+     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     xmlns:uen="using:Uno.Extensions.Navigation.UI"
+     xmlns:utu="using:Uno.Toolkit.UI"
+     xmlns:um="using:Uno.Material"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+
+    <ScrollViewer>
+        <Grid utu:SafeArea.Insets="VisibleBounds">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+
+            <utu:NavigationBar Content="{Binding Title}" MainCommandMode="Action">
+                <utu:NavigationBar.MainCommand>
+                    <AppBarButton Label="Logout" Command="{Binding LogoutPressedCommand}"/>
+                </utu:NavigationBar.MainCommand>
+            </utu:NavigationBar>
+
+            <Grid Grid.Row="1">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <Button Content="View Users" Height="200" Width="400" FontSize="35" Command="{Binding ViewUsersCommand}"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                <Button Content="Enter Car Predictions" Height="200" Width="400" FontSize="35" Command="{Binding EnterPredictionCommand}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1"/>
+
+
+            </Grid>
+
+        </Grid>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "ManagerTablet",
+  "display": "standalone",
+  "name": "ManagerTablet",
+  "short_name": "ManagerTablet",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="ManagerTablet.Presentation.EditUserPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ManagerTablet.Presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:uen="using:Uno.Extensions.Navigation.UI"
+    xmlns:utu="using:Uno.Toolkit.UI"
+    xmlns:um="using:Uno.Material"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+
+    <ScrollViewer>
+        <Grid utu:SafeArea.Insets="VisibleBounds">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+
+
+            <utu:NavigationBar Content="{Binding Title}" MainCommandMode="Action">
+                <utu:NavigationBar.MainCommand>
+                    <AppBarButton Label="Logout" Command="{Binding BackPressedCommand}"/>
+                </utu:NavigationBar.MainCommand>
+            </utu:NavigationBar>
+
+            <Grid Grid.Row="1" VerticalAlignment="Stretch" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Bentley ID:" Margin="20" HorizontalAlignment="Right"  VerticalAlignment="Center"/>
+                <TextBox Text="{Binding CurrentUser.BentleyID, Mode=TwoWay}" Margin="20" Grid.Column="1"/>
+
+                <TextBlock Text="Name:" Grid.Row="1" Margin="20" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                <TextBox Text="{Binding CurrentUser.NameOfUser, Mode=TwoWay}"  Margin="20" Grid.Row="1" Grid.Column="1"/>
+
+                <TextBlock Text="Manager:" Grid.Row="2" Margin="20" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" Margin="20">
+                    <RadioButton Content="Yes" FontSize="20" IsChecked="{Binding CurrentUser.Manager, Mode=TwoWay}" Margin="10"/>
+                    <RadioButton Content="No" FontSize="20" IsChecked="{Binding CurrentUser.NotManager, Mode=TwoWay}" Margin="10"/> 
+                </StackPanel>
+
+                <TextBlock Text="{Binding ErrorText}" FontSize="30" Grid.Row="3" Grid.ColumnSpan="3" HorizontalAlignment="Center"/>
+
+            </Grid>
+
+
+            <Button Content="{Binding SubmitText}" Command="{Binding UpdateCommand}" FontSize="30" Margin="30" Height="60" MinWidth="200" VerticalAlignment="Bottom" HorizontalAlignment="Center" Grid.Row="4" Grid.ColumnSpan="3"/>
+
+        </Grid>
+    </ScrollViewer>
+</Page>

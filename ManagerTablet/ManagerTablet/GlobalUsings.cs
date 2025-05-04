@@ -1,0 +1,15 @@
+﻿global using System.Collections.Immutable;
+global using CommunityToolkit.Mvvm.ComponentModel;
+global using CommunityToolkit.Mvvm.Input;
+global using ManagerTablet.DataContracts;
+global using ManagerTablet.DataContracts.Serialization;
+global using ManagerTablet.Models;
+global using ManagerTablet.Presentation;
+global using ManagerTablet.Services.Caching;
+global using ManagerTablet.Services.Endpoints;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;
+global using Microsoft.Extensions.Localization;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Options;
+global using ApplicationExecutionState = Windows.ApplicationModel.Activation.ApplicationExecutionState;
