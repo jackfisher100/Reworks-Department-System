@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|d:\\documents\\university\\finalyear\\finalproject\\hostsever\\controllers\\baycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|solutionrelative:controllers\\baycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|d:\\documents\\university\\finalyear\\finalproject\\hostsever\\classes\\databaselink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|solutionrelative:classes\\databaselink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|d:\\documents\\university\\finalyear\\finalproject\\hostsever\\model\\baysresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|solutionrelative:model\\baysresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|d:\\documents\\university\\finalyear\\finalproject\\hostsever\\model\\breakinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|solutionrelative:model\\breakinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|d:\\documents\\university\\finalyear\\finalproject\\hostsever\\controllers\\workercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|solutionrelative:controllers\\workercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/JACK_DELL_WINDO_SQLEXPRESS/Bentley/True/SqlTable/dbo.BayInfo.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|d:\\documents\\university\\finalyear\\finalproject\\hostsever\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|solutionrelative:controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|d:\\documents\\university\\finalyear\\finalproject\\hostsever\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|d:\\documents\\university\\finalyear\\finalproject\\hostsever\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531359F8-3421-454A-B714-5ACD5758C2B8}|HostSever.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 88,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaysResponse.cs",
+              "DocumentMoniker": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Model\\BaysResponse.cs",
+              "RelativeDocumentMoniker": "Model\\BaysResponse.cs",
+              "ToolTip": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Model\\BaysResponse.cs",
+              "RelativeToolTip": "Model\\BaysResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T19:32:33.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BreakInfo.cs",
+              "DocumentMoniker": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Model\\BreakInfo.cs",
+              "RelativeDocumentMoniker": "Model\\BreakInfo.cs",
+              "ToolTip": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Model\\BreakInfo.cs",
+              "RelativeToolTip": "Model\\BreakInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T19:29:04.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorkerController.cs",
+              "DocumentMoniker": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Controllers\\WorkerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WorkerController.cs",
+              "ToolTip": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Controllers\\WorkerController.cs",
+              "RelativeToolTip": "Controllers\\WorkerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:14:31.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BayController.cs",
+              "DocumentMoniker": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Controllers\\BayController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BayController.cs",
+              "ToolTip": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Controllers\\BayController.cs",
+              "RelativeToolTip": "Controllers\\BayController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:11:04.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:50:04.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManagerController.cs",
+              "ToolTip": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "Controllers\\ManagerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:47:18.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:50:29.676Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 288,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.BayInfo.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/JACK_DELL_WINDO_SQLEXPRESS/Bentley/True/SqlTable/dbo.BayInfo.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/JACK_DELL_WINDO_SQLEXPRESS/Bentley/True/SqlTable/dbo.BayInfo.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-18T19:17:39.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseLink.cs",
+              "DocumentMoniker": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Classes\\DatabaseLink.cs",
+              "RelativeDocumentMoniker": "Classes\\DatabaseLink.cs",
+              "ToolTip": "D:\\Documents\\University\\FinalYear\\FinalProject\\HostSever\\Classes\\DatabaseLink.cs",
+              "RelativeToolTip": "Classes\\DatabaseLink.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:49:38.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

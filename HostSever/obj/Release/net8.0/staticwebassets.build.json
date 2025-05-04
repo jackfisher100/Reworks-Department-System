@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EOaEcv6LBQqDVpQ+F8z5l18f8ssarlhzk8GDR2sfHIo=",
+  "Source": "HostSever",
+  "BasePath": "_content/HostSever",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

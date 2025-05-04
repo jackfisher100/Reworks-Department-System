@@ -1,0 +1,27 @@
+1. SQL Express was used for DB
+	-> Can then use SSMS to have a look at server
+	
+	1. CREATE DATABASE Bentley
+	2. USE Bentley
+	3. CREATE TABLE Cars (
+		CarId INT PRIMARY KEY IDENTITY(1,1),
+		Barcode VARCHAR(64),
+		TimeOfEntry DATETIME,
+		TimeOfExit DATETIME,
+		BayNo INT,
+		WorkerID VARCHAR(32),
+		ManagerID VARCHAR(32),
+		Issue TEXT,
+		Prediction INT,
+		Dwell INT
+		)
+	4. CREATE TABLE Users (
+		UserID INT PRIMARY KEY IDENTITY(1,1),
+		BentleyID VARCHAR(20),
+		NameOfUser varchar(100),
+		Manager bit
+		)
+	
+	5. insert into Cars values ('test','20240101 10:00:00 AM', '20240101 12:00:00 AM', 1, 'testWorker','testManager','There is something seriously wrong that definetly needs fixing', 130, 10)
+	6. insert into Users values ('BentleyWorkerID','Test Worker', 0)
+	7. insert into Users values ('BentleyManagerID','Test Manager', 1)
